@@ -1,1 +1,63 @@
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+# Geodesic and Neural Features for Link Prediction in the COVID-19 Knowledge Graph
+
+Public repository for [SMCDC21](https://smc-datachallenge.ornl.gov/) [Challenge 2](https://smc-datachallenge.ornl.gov/2021-challenge-2/) submission.
+
+> Motivated by Challenge 2 of the 5th Annual Smoky Mountains Computational Sciences Data Challenge, we analyze the COVID-19 biomedical knowledge graph. After computing geodesic statistics for all nodes in the network, we present several machine learning pipelines for automated hypothesis generation.
+
+## Table of Contents
+* [Table of Contents](#table-of-contents)
+* [Setup](#setup)
+* [Repo Organization](#repo-organization)
+* [Requirements](#requirements)
+* [Contact](#contact)
+* [License](#license)
+
+## Setup
+
+1. Clone this repo
+2. Download shortest paths data from [here](https://drive.google.com/drive/folders/1vSXfiw09K3RN7gzhBTSOtHZ8_5K61cXE) (~6 GB) and relocate it to \smcdc-2021-2\data\shortest_paths (see [Organization](#organization))
+3. Download validation data from [here](https://drive.google.com/drive/folders/1pC6Z55535CwffG_KXyywhguWwRzmc07-?usp=sharing) (~2/3 GB) and relocate it to \smcdc-2021-2\data\validation (see [Organization](#organization))
+4. Download challenge dataset from [here](https://doi.ccs.ornl.gov/ui/doi/346) and relocate it to \smcdc-2021-2\data\og (see [Organization](#organization))
+5. cd into the covid19-link-prediction directory and run the following in your shell: ```pip pip install -r requirements.txt```
+
+## Repo Organization
+
+This repo is organized as follows:
+
+```bash
 covid19-link-prediction
+├── classifiers  # blah blah blah
+├── data
+│   ├── betweenness     # pre-computed betweenness data
+│   ├── embeddings     # trained DeepWalk embeddings
+│   ├── graph     # pickled NetworkX graphs
+│   ├── og     # dir for provided challenge data
+│   ├── other     # dir for intermediary data/computations
+│   ├── shortest_paths     # pre-computed APSP data
+│   ├── training     # matrices used for training
+│   └── validation     # matrices used for validation
+├── dev code     # assorted dev notebooks
+├── Browser Demo.ipynb
+└── kg_browser.py     # utils for browsing processed data/using models/etc.
+```
+
+## Requirements
+This project was created with:
+
+- `powerlaw==1.4.6`
+- `scikit_network==0.23.1`
+- `numpy==1.21.1`
+- `networkx==2.5`
+- `pandas==1.2.4`
+- `seaborn==0.11.0`
+- `matplotlib==3.3.2`
+- `scipy==1.7.0`
+- `joblib==0.17.0`
+
+## Contact
+- Lucas Hurley McCabe ([email](mailto:lucasmccabe@gwu.edu))
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
