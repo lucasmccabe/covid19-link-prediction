@@ -8,8 +8,9 @@ Public repository for [SMCDC21](https://smc-datachallenge.ornl.gov/) [Challenge 
 
 ## Table of Contents
 * [Table of Contents](#table-of-contents)
-* [Setup](#setup)
 * [Repo Organization](#repo-organization)
+* [Setup](#setup)
+* [Novel Relations](#novel-relations)
 * [Requirements](#requirements)
 * [Contact](#contact)
 * [License](#license)
@@ -41,6 +42,36 @@ covid19-link-prediction
 ├── dev code     # assorted dev notebooks
 ├── Browser Demo.ipynb
 └── kg_browser.py     # utils for browsing processed data/using models/etc.
+```
+
+## Novel Relations
+
+Our top 1000 proposed novel relations may be found here. The top 10 are as follows:
+
+```bash
++-----------------------+------------------------------+
+| Edge                  |  Estimated Link Probability  |
++=======================+==============================+
+| C0035236 <-> C1441604 |           0.999488           |
++-----------------------+------------------------------+
+| C0027362 <-> C0020967 |           0.999487           |
++-----------------------+------------------------------+
+| C0003062 <-> C0012754 |           0.999484           |
++-----------------------+------------------------------+
+| C0086418 <-> C0027934 |           0.999484           |
++-----------------------+------------------------------+
+| C0006104 <-> C0333230 |           0.999484           |
++-----------------------+------------------------------+
+| C1314650 <-> C2700280 |           0.999464           |
++-----------------------+------------------------------+
+| C0543467 <-> C0265883 |           0.99945            |
++-----------------------+------------------------------+
+| C0582175 <-> C2697883 |           0.999444           |
++-----------------------+------------------------------+
+| C1320226 <-> C0401805 |           0.999403           |
++-----------------------+------------------------------+
+| C0206031 <-> C0038454 |           0.99938            |
++-----------------------+------------------------------+
 ```
 
 ## Requirements
