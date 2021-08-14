@@ -15,14 +15,6 @@ Public repository for [SMCDC21](https://smc-datachallenge.ornl.gov/) [Challenge 
 * [Contact](#contact)
 * [License](#license)
 
-## Setup
-
-1. Clone this repo
-2. Download shortest paths data from [here](https://drive.google.com/drive/folders/1vSXfiw09K3RN7gzhBTSOtHZ8_5K61cXE) (~6 GB) and relocate it to \smcdc-2021-2\data\shortest_paths (see [Organization](#organization))
-3. Download validation data from [here](https://drive.google.com/drive/folders/1pC6Z55535CwffG_KXyywhguWwRzmc07-?usp=sharing) (~2/3 GB) and relocate it to \smcdc-2021-2\data\validation (see [Organization](#organization))
-4. Download challenge dataset from [here](https://doi.ccs.ornl.gov/ui/doi/346) and relocate it to \smcdc-2021-2\data\og (see [Organization](#organization))
-5. cd into the covid19-link-prediction directory and run the following in your shell: ```pip pip install -r requirements.txt```
-
 ## Repo Organization
 
 This repo is organized as follows:
@@ -44,9 +36,19 @@ covid19-link-prediction
 └── kg_browser.py     # utils for browsing processed data/using models/etc.
 ```
 
+## Setup
+
+1. Clone this repo
+2. Download shortest paths data from [here](https://drive.google.com/drive/folders/1vSXfiw09K3RN7gzhBTSOtHZ8_5K61cXE) (~6 GB) and relocate it to \smcdc-2021-2\data\shortest_paths (see [Organization](#organization))
+3. Download validation data from [here](https://drive.google.com/drive/folders/1pC6Z55535CwffG_KXyywhguWwRzmc07-?usp=sharing) (~2/3 GB) and relocate it to \smcdc-2021-2\data\validation (see [Organization](#organization))
+4. Download challenge dataset from [here](https://doi.ccs.ornl.gov/ui/doi/346) and relocate it to \smcdc-2021-2\data\og (see [Organization](#organization))
+5. cd into the covid19-link-prediction directory and run the following in your shell: ```pip pip install -r requirements.txt```
+
+
+
 ## Novel Relations
 
-Our top 1000 proposed novel relations may be found here. The top 10 are as follows:
+Our top 1000 proposed novel relations may be found [here](https://github.com/lucasmccabe/covid19-link-prediction/blob/main/dev%20code/link%20prediction/novel_relations.txt). Here are the top 10:
 
 ```bash
 +-----------------------+------------------------------+
