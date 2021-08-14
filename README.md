@@ -48,9 +48,9 @@ covid19-link-prediction
 
 We provide kg_browser, a convenient utility interface for accessing our processed data and models.
 
-![link prediction example](https://raw.githubusercontent.com/lucasmccabe/contagion/master/misc/link prediction example.png)
+![link prediction example](https://raw.githubusercontent.com/lucasmccabe/covid19-link-prediction/main/misc/link%20prediction%20example.png)
 
-
+For further examples, see the kg_browser demo notebook [here](https://github.com/lucasmccabe/covid19-link-prediction/blob/main/Browser%20Demo.ipynb).
 
 
 ## Novel Relations
