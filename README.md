@@ -21,7 +21,7 @@ This repo is organized as follows:
 
 ```bash
 covid19-link-prediction
-├── classifiers  # blah blah blah
+├── classifiers  # saved classification models
 ├── data
 │   ├── betweenness     # pre-computed betweenness data
 │   ├── embeddings     # trained DeepWalk embeddings
@@ -43,6 +43,13 @@ covid19-link-prediction
 3. Download validation data from [here](https://drive.google.com/drive/folders/1pC6Z55535CwffG_KXyywhguWwRzmc07-?usp=sharing) (~2/3 GB) and relocate it to \smcdc-2021-2\data\validation (see [Organization](#organization))
 4. Download challenge dataset from [here](https://doi.ccs.ornl.gov/ui/doi/346) and relocate it to \smcdc-2021-2\data\og (see [Organization](#organization))
 5. cd into the covid19-link-prediction directory and run the following in your shell: ```pip pip install -r requirements.txt```
+
+## kg_browser
+
+We provide kg_browser, a convenient utility interface for accessing our processed data and models.
+
+![link prediction example](https://raw.githubusercontent.com/lucasmccabe/contagion/master/misc/link prediction example.png)
+
 
 
 
