@@ -1,6 +1,6 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-# Geodesic and Neural Features for Link Prediction in the COVID-19 Knowledge Graph
+# Geodesic and Neural Features for Link Prediction in the COVID-19 Biomedical Knowledge Graph
 
 Public repository for [SMCDC21](https://smc-datachallenge.ornl.gov/) [Challenge 2](https://smc-datachallenge.ornl.gov/2021-challenge-2/) submission.
 
