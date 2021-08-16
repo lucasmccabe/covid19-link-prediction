@@ -10,6 +10,7 @@ Public repository for [SMCDC21](https://smc-datachallenge.ornl.gov/) [Challenge 
 * [Table of Contents](#table-of-contents)
 * [Repo Organization](#repo-organization)
 * [Setup](#setup)
+* [kg_browser](#kg_browser)
 * [Novel Relations](#novel-relations)
 * [Requirements](#requirements)
 * [Contact](#contact)
@@ -32,7 +33,8 @@ covid19-link-prediction
 │   ├── training     # matrices used for training
 │   └── validation     # matrices used for validation
 ├── dev code     # assorted dev notebooks
-├── Browser Demo.ipynb
+├── misc     # for assorted supplemental files (currently only the kg_browser image)
+├── paper     # submission pre-print
 └── kg_browser.py     # utils for browsing processed data/using models/etc.
 ```
 
@@ -46,11 +48,11 @@ covid19-link-prediction
 
 ## kg_browser
 
-We provide kg_browser, a convenient utility interface for accessing our processed data and models.
+We provide `kg_browser`, a convenient utility interface for accessing our processed data and models.
 
 ![link prediction example](https://raw.githubusercontent.com/lucasmccabe/covid19-link-prediction/main/misc/link%20prediction%20example.png)
 
-For further examples, see the kg_browser demo notebook [here](https://github.com/lucasmccabe/covid19-link-prediction/blob/main/Browser%20Demo.ipynb).
+For further examples, see the `kg_browser` demo notebook [here](https://github.com/lucasmccabe/covid19-link-prediction/blob/main/Browser%20Demo.ipynb).
 
 
 ## Novel Relations
