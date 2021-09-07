@@ -6,6 +6,8 @@ Public repository for [SMCDC21](https://smc-datachallenge.ornl.gov/) [Challenge 
 
 > Motivated by Challenge 2 of the 5th Annual Smoky Mountains Computational Sciences Data Challenge, we analyze the COVID-19 biomedical knowledge graph. After computing geodesic statistics for all nodes in the network, we present several machine learning pipelines for automated hypothesis generation.
 
+![pipeline figure](https://raw.githubusercontent.com/lucasmccabe/covid19-link-prediction/main/misc/pipeline%20figure.png)
+
 ## Table of Contents
 * [Table of Contents](#table-of-contents)
 * [Repo Organization](#repo-organization)
