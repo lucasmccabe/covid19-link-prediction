@@ -2,7 +2,7 @@
 
 # Geodesic and Neural Features for Link Prediction in the COVID-19 Biomedical Knowledge Graph
 
-Public repository for [SMCDC21](https://smc-datachallenge.ornl.gov/) [Challenge 2](https://smc-datachallenge.ornl.gov/2021-challenge-2/) submission.
+Public repository for [SMCDC21](https://smc-datachallenge.ornl.gov/) [Challenge 2](https://smc-datachallenge.ornl.gov/2021-challenge-2/) submission (accepted for presentation at [SMC2021](https://smc2021.ornl.gov/)).
 
 > Motivated by Challenge 2 of the 5th Annual Smoky Mountains Computational Sciences Data Challenge, we analyze the COVID-19 biomedical knowledge graph. After computing geodesic statistics for all nodes in the network, we present several machine learning pipelines for automated hypothesis generation.
 
