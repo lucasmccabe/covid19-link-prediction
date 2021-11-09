@@ -46,7 +46,7 @@ covid19-link-prediction
 2. Download shortest paths data from [here](https://drive.google.com/drive/folders/1vSXfiw09K3RN7gzhBTSOtHZ8_5K61cXE) (~6 GB) and relocate it to [\smcdc-2021-2\data\shortest_paths](https://github.com/lucasmccabe/covid19-link-prediction/tree/main/data/shortest_paths) (see [Repo Organization](#repo-organization))
 3. Download validation data from [here](https://drive.google.com/drive/folders/1pC6Z55535CwffG_KXyywhguWwRzmc07-?usp=sharing) (~2/3 GB) and relocate it to [\smcdc-2021-2\data\validation](https://github.com/lucasmccabe/covid19-link-prediction/tree/main/data/validation) (see [Repo Organization](#repo-organization))
 4. Download challenge dataset from [here](https://doi.ccs.ornl.gov/ui/doi/346) and relocate it to [\smcdc-2021-2\data\og](https://github.com/lucasmccabe/covid19-link-prediction/tree/main/data/og) (see [Repo Organization](#repo-organization))
-5. cd into the covid19-link-prediction directory and run the following in your shell: ```pip pip install -r requirements.txt```
+5. cd into the covid19-link-prediction directory and run the following in your shell: ```pip install -r requirements.txt```
 
 ## kg_browser
 
